@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "EEE",
+    "MMM",
+    "EEE"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:emerald"
+    },
+    "M": {
+      "item": "navecraft:motor_nave"
+    }
+  },
+  "result": {
+    "id": "navecraft:motor_mejorado_nave",
+    "count": 1
+  }
+}

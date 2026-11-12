@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " C ",
+    "LMR",
+    " F "
+  ],
+  "key": {
+    "C": {
+      "item": "navecraft:cabina_nave"
+    },
+    "L": {
+      "item": "navecraft:ala_izquierda_nave"
+    },
+    "R": {
+      "item": "navecraft:ala_derecha_nave"
+    },
+    "M": {
+      "item": "navecraft:motor_nave"
+    },
+    "F": {
+      "item": "navecraft:fuselaje_nave"
+    }
+  },
+  "result": {
+    "id": "ghostsafio:nave",
+    "count": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "itemGroup.navecraft.nave": "Spaceship",
+  "item.navecraft.dilitio": "Dilithium",
+  "item.navecraft.ambar_con_insecto": "Amber with Insect",
+  "item.navecraft.capsula_dilitio": "Dilithium Capsule",
+  "item.navecraft.cabina_nave": "Ship Cabin",
+  "item.navecraft.ala_izquierda_nave": "Ship Left Wing",
+  "item.navecraft.ala_derecha_nave": "Ship Right Wing",
+  "item.navecraft.motor_nave": "Ship Engine",
+  "item.navecraft.motor_mejorado_nave": "Improved Ship Engine",
+  "item.navecraft.fuselaje_nave": "Ship Hull",
+  "block.navecraft.plataforma_nave": "Ship Platform",
+  "message.navecraft.necesita_plataforma": "Place the ship on top of a Ship Platform"
+}

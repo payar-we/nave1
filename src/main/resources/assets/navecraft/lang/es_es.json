@@ -1,0 +1,14 @@
+{
+  "itemGroup.navecraft.nave": "Nave Espacial",
+  "item.navecraft.dilitio": "Dilitio",
+  "item.navecraft.ambar_con_insecto": "Ámbar con Insecto",
+  "item.navecraft.capsula_dilitio": "Cápsula de Dilitio",
+  "item.navecraft.cabina_nave": "Cabina de la Nave",
+  "item.navecraft.ala_izquierda_nave": "Ala Izquierda de la Nave",
+  "item.navecraft.ala_derecha_nave": "Ala Derecha de la Nave",
+  "item.navecraft.motor_nave": "Motor de la Nave",
+  "item.navecraft.motor_mejorado_nave": "Motor Mejorado de la Nave",
+  "item.navecraft.fuselaje_nave": "Fuselaje de la Nave",
+  "block.navecraft.plataforma_nave": "Plataforma de la Nave",
+  "message.navecraft.necesita_plataforma": "Coloca la nave sobre la Plataforma de la Nave"
+}

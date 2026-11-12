@@ -1,0 +1,25 @@
+NAVE CRAFT - mod Fabric 1.21.1
+Necesita solo Fabric API. Ya incluye TODO el mod ghostsafio por dentro (en META-INF/jars):
+NO lo pongas aparte en la carpeta mods o se duplica.
+
+OBJETOS (pestana creativa "Nave Espacial", o con /give):
+ navecraft:dilitio, navecraft:ambar_con_insecto, navecraft:capsula_dilitio, navecraft:cabina_nave,
+ navecraft:ala_izquierda_nave, navecraft:ala_derecha_nave, navecraft:fuselaje_nave,
+ navecraft:motor_nave, navecraft:motor_mejorado_nave, navecraft:plataforma_nave (bloque)
+
+CRAFTEOS (carpeta src/main/resources/data/navecraft/recipe, son archivos json faciles de editar)
+ Capsula de dilitio: 4 diamantes (esquinas), 4 dilitio (lados), 1 fragmento de netherita (centro)
+ Motor de la nave: 3 lingotes de hierro / 3 capsulas de dilitio / 3 lingotes de netherita
+ Motor mejorado: 3 motores normales en el medio, esmeraldas arriba y abajo
+ Ala izquierda / derecha: lingotes de hierro, ambar con insecto, lingote de netherita
+ Cabina: bloques de hierro, ambar con insecto, lingote de netherita a la izquierda del medio, centro vacio
+ Fuselaje: RECETA PROVISIONAL (bloques de hierro y lingotes de netherita), falta la real
+ Plataforma de la nave: RECETA PROVISIONAL (8 lingotes de hierro + 1 de netherita)
+ La nave SOLO se puede colocar sobre la cara de arriba de la plataforma.
+ Nave espacial (ghostsafio:nave): cabina arriba, ala izq + motor + ala der en el medio, fuselaje abajo
+
+COMO CREAR EL .JAR: sube todo a GitHub; la pestana Actions lo compila (artifact navecraft-jar).
+
+EXTRAS
+ - Todas las recetas se desbloquean solas y salen en el libro de recetas.
+ - Mientras la nave vuela: llamas abajo, circulo brillante debajo y viento girando arriba (efecto cliente).

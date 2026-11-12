@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "tick"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "navecraft:ala_derecha_nave",
+      "navecraft:ala_izquierda_nave",
+      "navecraft:cabina_nave",
+      "navecraft:capsula_dilitio",
+      "navecraft:fuselaje_nave",
+      "navecraft:motor_mejorado_nave",
+      "navecraft:motor_nave",
+      "navecraft:nave_espacial",
+      "navecraft:plataforma_nave"
+    ]
+  }
+}

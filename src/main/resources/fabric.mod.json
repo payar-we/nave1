@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "navecraft",
+	"version": "${version}",
+	"name": "Nave Craft",
+	"description": "Nave Espacial completa (incluye ghostsafio) con crafteos, plataforma de lanzamiento y efectos de vuelo.",
+	"authors": [
+		"Nutria"
+	],
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.navecraft.NaveCraft"
+		],
+		"client": [
+			"com.navecraft.NaveCraftClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*",
+		"ghostsafio": "*"
+	},
+	"jars": [
+		{
+			"file": "META-INF/jars/ghostsafio-1.0.0.jar"
+		},
+		{
+			"file": "META-INF/jars/ghostsafio-texturas-a-1.0.0.jar"
+		},
+		{
+			"file": "META-INF/jars/ghostsafio-texturas-b-1.0.0.jar"
+		}
+	]
+}
